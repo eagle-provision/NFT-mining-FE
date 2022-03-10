@@ -71,7 +71,6 @@ tbody tr td:last-child {
   width:50%;
 }
 .button_ban{
- /* Green */
   border: 2px solid white;
   padding: 10px 25px;
   text-align: center;
@@ -79,4 +78,72 @@ tbody tr td:last-child {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+@media (max-width: 1920px) {
+  .charity{
+    margin-left:10px; 
+    width:30%; 
+    margin-top:243px;
+  }
+}
+@media (max-width: 1600px) {
+  .charity{
+    margin-left:10px; 
+    width:30%; 
+    margin-top:341px;
+  }
+}
+@media (max-width: 1440px) {
+  .charity{
+    margin-left:10px; 
+    width:32%; 
+    margin-top:384px;
+  }
+}
+@media (max-width: 1280px) {
+  .charity{
+    margin-left:10px; 
+    width:34%; 
+    margin-top:434px;
+  }
+}
+@media (max-width: 1024px) {
+  .charity{
+    margin-left:10px; 
+    width:33%; 
+    margin-top:601px;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  .charity{
+    margin-left:10px; 
+    width:33%; 
+    margin-top:862px;
+  }
+  .Group1_max{
+    height:490px;
+  }
+  .button_ban{
+    border: 2px solid white;
+    padding: 0px 20px;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button{
+    background-color: white; 
+    border: 2px solid white;
+    color: black;
+    padding: 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 }

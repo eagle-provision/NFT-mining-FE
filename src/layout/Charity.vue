@@ -1,6 +1,6 @@
 <template>
 <div>
-    <img src="./../assets/images/Group4.png" class="absolute" style="margin-left:10px; width:38%; margin-top:383px;">
+    <img src="./../assets/images/Group4.png" class="absolute charity">
     <div class="bg-black flex  items-center p-14">
         <div class="w-1/12"></div>
         <div class="w-5/12">
@@ -8,9 +8,9 @@
                 <p class="text-white font-Bodoni Bd BT font-bold text-5xl ">Charity Donation</p>
             </div>
             <p class="pt-10 text-white">
-                X amount of all proceeds will be donated to the Womans Breast Cancer Awareness Charity 
-                Program. 
-
+                As a MetaBabe holder not only are you being a part of something historical taking place on the 
+                Ethereum BlockChain, but you are also helping make a difference in the real world. (Read Below) 
+                http://recycling4acure.org 
             </p>
         </div>
         <div class="w-5/12 pt-10 ">
