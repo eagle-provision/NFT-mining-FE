@@ -1,43 +1,13 @@
 const express = require("express");
-const axios = require("axios");
-const app = express();
+// eslint-disable-next-line no-unused-vars
+// const bodyParser = require('body-parser');
 const path = require("path");
-const cors = require("cors");
+const app = express();
+const port = process.env.PORT || 8080;
 
-const PORT = process.env.PORT || 5005;
-const requestopts = {
-  convert: "USD",
-  headers: {
-    "X-CMC_PRO_API_KEY": "74b45c73-d6a3-4807-9b51-203d974ad3cb",
-  },
-};
+app.use(express.static(path.join(__dirname, "build")));
 
-app.use([express.json({ extended: false }), cors()]);
+// This route serves the React app
+app.get('/', (req, res) => res.sendFile(path.resolve(__dirname, "build", "index.html")));
 
-app.get("/top", (req, res) => {
-  axios
-    .get(
-      `https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=HNT`,
-      requestopts
-    )
-    .then(function (response) {        
-      res.json(response.data);
-    })
-    .catch(function (error) {
-      res.json(error);
-    });
-});
-
-if (process.env.NODE_ENV === "production") {
-  //Set Static folder
-  app.use(express.static("build"));
-  app.get("*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "build", "index.html"));
-  });
-}
-
-
-//App listen to PORT
-app.listen(PORT, function () {
-  console.log(`Express server listening on port ${PORT}`);
-});
+app.listen(port, () => console.log(`Server listening on port ${port}`));
