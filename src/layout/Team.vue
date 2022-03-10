@@ -9,10 +9,10 @@
 
     <div class=" flex justify-center pt-10">
         <div class="flex justify-between w-8/12">
-            <img src="./../assets/images/1.png" class="w-2/12"/>
-            <img src="./../assets/images/2.png" class="w-2/12"/>
-            <img src="./../assets/images/3.png" class="w-2/12"/>
-            <img src="./../assets/images/4.png" class="w-2/12"/>
+            <img src="./../assets/images/1.png" class="w-1/5"/>
+            <img src="./../assets/images/2.png" class="w-1/5"/>
+            <img src="./../assets/images/3.png" class="w-1/5"/>
+            <img src="./../assets/images/4.png" class="w-1/5"/>
         </div>
     </div>
 </div>  

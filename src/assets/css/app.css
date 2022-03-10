@@ -86,12 +86,20 @@ tbody tr td:last-child {
     width:30%; 
     margin-top:243px;
   }
+  .ban{
+    margin-left:844px;
+    top:2293px;
+  }
 }
 @media (max-width: 1600px) {
   .charity{
     margin-left:10px; 
     width:30%; 
     margin-top:341px;
+  }
+  .ban{
+    margin-left:679px;
+    top:2190px;
   }
 }
 @media (max-width: 1440px) {
@@ -100,6 +108,10 @@ tbody tr td:last-child {
     width:32%; 
     margin-top:384px;
   }
+  .ban{
+    margin-left:598px;
+    top:2114px;
+  }
 }
 @media (max-width: 1280px) {
   .charity{
@@ -107,12 +119,28 @@ tbody tr td:last-child {
     width:34%; 
     margin-top:434px;
   }
+  .ban{
+    margin-left:558px;
+    top:1994px;
+    width:20%;
+  }
+  .G14{
+    height:415px;
+  }
 }
 @media (max-width: 1024px) {
   .charity{
     margin-left:10px; 
     width:33%; 
     margin-top:601px;
+  }
+  .G14{
+    height:637px;
+  }
+  .ban{
+    margin-left:465px;
+    top:2137px;
+    width:20%;
   }
 }
 
@@ -122,6 +150,14 @@ tbody tr td:last-child {
     margin-left:10px; 
     width:33%; 
     margin-top:862px;
+  }
+  .ban{
+    margin-left:360px;
+    top:2282px;
+    width:20%;
+  }
+  .G14{
+    height:769px;
   }
   .Group1_max{
     height:490px;
