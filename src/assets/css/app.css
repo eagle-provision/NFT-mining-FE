@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.7.0/css/all.css");
+@import url("https://unpkg.com/aos@2.3.1/dist/aos.css" );
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+
+tbody tr {
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px #e5e9ee, -1px -1px 1px #e5e9ee, 1px -1px 1px #e5e9ee, -1px 1px 1px #e5e9ee;
+}
+
+thead tr td:first-child {
+  padding-left: 20px;
+}
+
+thead tr td:last-child {
+  padding-right: 20px;
+}
+
+tbody tr td:first-child {
+  border-radius: 8px 0 0 8px;
+}
+
+tbody tr td:last-child {
+  border-radius: 0 8px 8px 0;
+}
+.bg{
+  background: url("./../images/bg.png");
+  
+}
+.button1{
+  color: black;
+  border: 2px solid white;
+  height:40px;
+  width:150%;
+}
+
+.button2{
+  color: black;
+  border: 2px solid white;
+  width:40px;
+  height:40px;
+}
+
+.button{
+  background-color: white; /* Green */
+  border: 2px solid white;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button3{
+  color: black;
+  border: 2px solid white;
+  height:40px;
+  width:50%;
+}
+.button_ban{
+ /* Green */
+  border: 2px solid white;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+# Node build artifacts
+node_modules
+npm-debug.log
+debug.log
+build/
+package-lock.json
+# Local development
+*.dev
+.DS_Store
+yarn.lock
+# Docker
+Dockerfile
+docker-compose.yml 
+.git1
