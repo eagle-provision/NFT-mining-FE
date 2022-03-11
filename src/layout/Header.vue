@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="lg:hidden">
-      <p class="text-white text-center uppercase p-20" style="font-size:115px; font-family:Bodoni Bd BT">babes</p>
+      <p class="text-white text-center uppercase md:p-20 sm:p-10" style="font-size:115px; font-family:Bodoni Bd BT">babes</p>
     </div>
   </div>    
   

@@ -6,7 +6,7 @@
             <div class="w-1/12"></div>
             <div class="w-5/12">
                 <div class="flex ">
-                    <p class="text-white font-Bodoni Bd BT font-bold text-5xl" style="font-family:Bodoni Bd BT">Charity Donation</p>
+                    <p class="text-white font-Bodoni Bd BT font-bold md:text-4xl p-4 sm:text-xl" style="font-family:Bodoni Bd BT">Charity Donation</p>
                 </div>
                 <p class="pt-10 text-white">
                     As a MetaBabe holder not only are you being a part of something historical taking place on the 

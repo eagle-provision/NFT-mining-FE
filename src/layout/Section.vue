@@ -26,9 +26,9 @@
       </div>
   </div>
   <div class="mo_bg lg:hidden">
-    <div class="flex justify-center">
-      <div class="w-1/3">
-        <p class="text-white text-center" style="margin-top:100px; font-size:28px;">The Magazine on the Ethereum BlockChain</p>
+    <div class="">
+      <div class="">
+        <p class="text-white text-center p-20" style="font-size:28px;">The Magazine on the Ethereum BlockChain</p>
         <p class="text-pink-500 text-center" style="font-family:Cormorant; font-size:100px;">7,777 </p>
       </div>
     </div>

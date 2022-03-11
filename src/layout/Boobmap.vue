@@ -4,11 +4,11 @@
             <img src="./../assets/images/Group37.png">
         </div>
         <div class="lg:hidden">
-            <p class="text-white text-center p-10" style="font-size:80px; font-family:Bodoni Bd BT">Boob Map</p>
+            <p class="text-white text-center p-4" style="font-size:80px; font-family:Bodoni Bd BT">Boob Map</p>
             <div id="Phase1">
                 <img src="./../assets/images/boob.png"/>
-                <p class="text-white text-center p-5" style="font-size:54px; font-family:Bodoni Bd BT">Phase 1</p>
-                <p class="text-white text-center p-5" style="font-size:32px; font-family:Bodoni Bd BT">
+                <p class="text-white text-center md:p-5 sm:p-3" style="font-size:54px; font-family:Bodoni Bd BT">Phase 1</p>
+                <p class="text-white text-center md:p-5 sm:p-3" style="font-size:32px; font-family:Bodoni Bd BT">
                     Presale Takes Place (If any) </p>
                 <div class="flex justify-center p-5">
                     <img src="./../assets/images/Ellipse.png">
@@ -18,7 +18,7 @@
             </div>
             <div id="Phase2">
                 <img src="./../assets/images/boob.png"/>
-                <p class="text-white text-center p-5" style="font-size:54px; font-family:Bodoni Bd BT">Phase 2</p>
+                <p class="text-white text-center md:p-5 sm:p-3" style="font-size:54px; font-family:Bodoni Bd BT">Phase 2</p>
                 <div class="flex justify-center p-5">
                     <img src="./../assets/images/Ellipse.png">
                 </div>
@@ -48,7 +48,7 @@
             </div>
             <div id="Phase3">
                 <img src="./../assets/images/boob.png"/>
-                <p class="text-white text-center p-5" style="font-size:54px; font-family:Bodoni Bd BT">Phase 3</p>
+                <p class="text-white text-center md:p-5 sm:p-3" style="font-size:54px; font-family:Bodoni Bd BT">Phase 3</p>
                 <div class="flex justify-center p-5">
                     <img src="./../assets/images/Ellipse.png">
                 </div>
