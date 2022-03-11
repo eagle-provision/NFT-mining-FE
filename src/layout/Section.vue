@@ -28,13 +28,13 @@
   <div class="mo_bg lg:hidden">
     <div class="flex justify-center">
       <div class="w-1/3">
-        <p class="text-white text-xl text-center" style="margin-top:300px; font-size:28px;">The Magazine on the Ethereum BlockChain</p>
+        <p class="text-white text-center" style="margin-top:100px; font-size:28px;">The Magazine on the Ethereum BlockChain</p>
         <p class="text-pink-500 text-center" style="font-family:Cormorant; font-size:100px;">7,777 </p>
       </div>
     </div>
     <div class="flex justify-center">
       <div class="w-5/6">
-        <p class="text-white" style="font-size:50px;">
+        <p class="text-white text-center" style="font-size:50px;">
           Randomly Generated Editions of the Meta Babe Magazine 0.1 ETH
         </p>
         <button class="button_mo mt-20">Launch Price-TBA</button>
