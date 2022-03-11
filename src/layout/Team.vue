@@ -3,7 +3,7 @@
     
     <div class=" flex justify-center">
         <div class="flex justify-between w-8/12">
-            <p class="text-white font-Bodoni Bd BT text-4xl">The Team</p>
+            <p class="text-white text-4xl" style="font-family:Bodoni Bd BT">The Team</p>
         </div>
     </div>
 

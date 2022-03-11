@@ -5,7 +5,7 @@
       <img src="./../assets/images/babes.png" class="left-0 "/>
     </div>
     <div class="w-6/12 flex justify-center lg:space-x-4 md:space-x-2">
-      <a href=""><p class="text-xs text-white hover:text-pink-500 ">STORY</p></a>
+      <a href=""><p class="text-xs text-white hover:text-pink-500">STORY</p></a>
       <a href=""><p class="text-xs text-white hover:text-pink-500">CLUB</p></a>
       <a href=""><p class="text-xs text-white hover:text-pink-500">CHARITY DONATION</p></a>
       <a href=""><p class="text-xs text-white hover:text-pink-500">BOOB MAP</p></a>

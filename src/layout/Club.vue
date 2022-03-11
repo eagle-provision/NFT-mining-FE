@@ -7,7 +7,7 @@
         </div>
         <div class="w-5/12">
             <div class="flex ">
-                <p class="text-white font-Bodoni Bd BT font-bold text-5xl">Meta Babe Club Edition</p>
+                <p class="text-white font-bold text-4xl" style="font-family:Bodoni Bd BT">Meta Babe Club Edition</p>
                 <p class="text-pink-500 text-5xl font-bold">#1</p>
             </div>
             <p class="text-white">
