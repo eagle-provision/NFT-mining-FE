@@ -79,7 +79,9 @@ tbody tr td:last-child {
   margin: 4px 2px;
   cursor: pointer;
 }
-
+.text{
+  font-size: 28px;;
+}
 
 /* mobile */
 
@@ -93,8 +95,9 @@ tbody tr td:last-child {
     margin-top:243px;
   }
   .ban{
-    margin-left:844px;
-    top:2293px;
+    margin-left:702px;
+    top:2232px;
+    width:20%;
   }
   
 }
@@ -105,8 +108,9 @@ tbody tr td:last-child {
     margin-top:341px;
   }
   .ban{
-    margin-left:679px;
-    top:2190px;
+    margin-left:585px;
+    top:2160px;
+    width:20%;
   }
   
 }
@@ -117,8 +121,9 @@ tbody tr td:last-child {
     margin-top:384px;
   }
   .ban{
-    margin-left:598px;
-    top:2114px;
+    margin-left:526px;
+    top:2127px;
+    width:20%;
   }
   
 }
@@ -129,8 +134,8 @@ tbody tr td:last-child {
     margin-top:434px;
   }
   .ban{
-    margin-left:558px;
-    top:1994px;
+    margin-left:473px;
+    top:1934px;
     width:20%;
   }
   .G14{
@@ -149,9 +154,17 @@ tbody tr td:last-child {
     height:637px;
   }
   .ban{
-    margin-left:465px;
-    top:2137px;
+    margin-left:390px;
+    top:2145px;
     width:20%;
+  }
+  .card{
+    margin-left:160px;
+  }
+  .story{
+    padding-right:90px;
+    padding-left:90px;
+    padding-bottom:50px;
   }
   
 }
