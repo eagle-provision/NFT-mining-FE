@@ -80,6 +80,12 @@ tbody tr td:last-child {
   cursor: pointer;
 }
 
+
+/* mobile */
+
+
+
+/* responsive */
 @media (max-width: 1920px) {
   .charity{
     margin-left:10px; 
@@ -90,6 +96,7 @@ tbody tr td:last-child {
     margin-left:844px;
     top:2293px;
   }
+  
 }
 @media (max-width: 1600px) {
   .charity{
@@ -101,6 +108,7 @@ tbody tr td:last-child {
     margin-left:679px;
     top:2190px;
   }
+  
 }
 @media (max-width: 1440px) {
   .charity{
@@ -112,6 +120,7 @@ tbody tr td:last-child {
     margin-left:598px;
     top:2114px;
   }
+  
 }
 @media (max-width: 1280px) {
   .charity{
@@ -127,8 +136,10 @@ tbody tr td:last-child {
   .G14{
     height:415px;
   }
+  
 }
 @media (max-width: 1024px) {
+  
   .charity{
     margin-left:10px; 
     width:33%; 
@@ -142,6 +153,7 @@ tbody tr td:last-child {
     top:2137px;
     width:20%;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -156,30 +168,83 @@ tbody tr td:last-child {
     top:2282px;
     width:20%;
   }
+  .button_mo{
+    background-color: white; /* Green */
+    border: 2px solid white;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    width:100%;
+    cursor: pointer;
+  }
+  .button_ban_mo{
+    border: 2px solid white;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:100%;
+  }
   .G14{
     height:769px;
+    
   }
   .Group1_max{
     height:490px;
   }
-  .button_ban{
-    border: 2px solid white;
-    padding: 0px 20px;
-    font-size: 12px;
-    margin: 4px 2px;
-    cursor: pointer;
+  
+  .mo_header{
+    display:none;
   }
-
-  .button{
-    background-color: white; 
-    border: 2px solid white;
-    color: black;
-    padding: 0px 20px;
+  .mo_babes{
+   margin-left:310px;
+  }
+  .mo_head{
+    width:768px;
+    height:232px;
+  }
+  .mo_magazine{
+    font-size:28px;
+    display:wrap;
+    margin-top:23rem;
+  }
+  .mo_bg{
+    background: url("./../images/Rectangle_mo.png");
+  }
+  .basi{
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 4px 2px;
-    cursor: pointer;
+  }
+  .basi_text{
+    padding:3rem;
+    font-size: 28px;  
+    text-align: center;
+  }
+  .ban{
+    display: none;
+  }
+  .mint_text{
+    padding:3rem;
+  }
+  .Group1_hide{
+    display: none;
+  }
+  .card_hide{
+    display: none;
+  }
+  .hide{
+    display: none;
+  }
+  .cen{
+    justify-content: center;
+  }
+  .text_cen{
+    text-align: center;
   }
 }
