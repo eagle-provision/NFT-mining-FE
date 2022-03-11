@@ -1,7 +1,7 @@
 <template>
   <div class="bg-black">
     <div class="hide">
-      <div class="flex w-full  bg-opacity-80 fixed items-center absolute" style="top:0;">
+      <div class="bg-black flex w-full  bg-opacity-80 fixed items-center absolute" style="top:0;">
         <div class="w-1/12"></div>
         <div class="w-2/12 flex justify-end ">
           <p class="left-0 text-white text-5xl uppercase" style="font-family:Bodoni Bd BT">babes</p>
