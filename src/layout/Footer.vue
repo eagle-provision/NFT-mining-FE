@@ -23,14 +23,14 @@
       </div>
     </div>
     <div class="header_hide">
-      <p class="text-white text-center p-10 uppercase hover:text-pink-500" style="font-size:80px; font-family:Bodoni Bd BT">babes</p>
-      <p class="text-white text-center p-10 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">story</p>
-      <p class="text-white text-center p-10 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">club</p>
-      <p class="text-white text-center p-10 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">charity donation</p>
-      <p class="text-white text-center p-10 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">boob map</p>
-      <p class="text-white text-center p-10 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">faq</p>
-      <p class="text-white text-center p-10 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">contact</p>
-      <div class="flex justify-between p-10 px-40">
+      <p class="text-white text-center p-5 uppercase " style="font-size:80px; font-family:Bodoni Bd BT">babes</p>
+      <p class="text-white text-center p-5 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">story</p>
+      <p class="text-white text-center p-5 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">club</p>
+      <p class="text-white text-center p-5 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">charity donation</p>
+      <p class="text-white text-center p-5 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">boob map</p>
+      <p class="text-white text-center p-5 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">faq</p>
+      <p class="text-white text-center p-5 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">contact</p>
+      <div class="flex justify-center  p-5 px-40">
         <img src="./../assets/images/twitter.png">
         <img src="./../assets/images/instagram.png">
         <img src="./../assets/images/discord.png">
