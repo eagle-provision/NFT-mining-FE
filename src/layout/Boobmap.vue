@@ -1,7 +1,7 @@
 <template>
     <div class="bg-black">
         <div class="hide">
-            <svg width=auto height=auto viewBox="0 0 1919 1405" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg width=auto height=auto viewBox="0 0 1919 1405" font-size="30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <rect y="2" font-size="30px" width="1920" height="1403" fill="black"/>
             <rect x="1030" y="81" width="1000" height="781" fill="url(#pattern0)"/>
             <rect x="1252" y="547" width="584" height="584" fill="url(#paint0_linear_17_282)"/>

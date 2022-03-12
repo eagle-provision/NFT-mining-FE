@@ -112,7 +112,7 @@ tbody tr td:last-child {
   }
   .ban{
     margin-left:702px;
-    top:2232px;
+    top:2207px;
     width:20%;
   }
   .header_hide{
@@ -126,11 +126,11 @@ tbody tr td:last-child {
   .charity{
     margin-left:10px; 
     width:30%; 
-    margin-top:369px;
+    margin-top:311px;
   }
   .ban{
     margin-left:585px;
-    top:2160px;
+    top:2166px;
     width:20%;
   }
   
@@ -139,11 +139,11 @@ tbody tr td:last-child {
   .charity{
     margin-left:10px; 
     width:32%; 
-    margin-top:472px;
+    margin-top:365px;
   }
   .ban{
     margin-left:526px;
-    top:2127px;
+    top:2120px;
     width:20%;
   }
   
@@ -152,7 +152,7 @@ tbody tr td:last-child {
   .charity{
     margin-left:8px; 
     width:34%; 
-    margin-top:525px;
+    margin-top:417px;
   }
   .ban{
     margin-left:473px;
@@ -171,6 +171,11 @@ tbody tr td:last-child {
   .card{
     margin-left:160px;
   }
+  .charity{
+    margin-left:8px; 
+    width:34%; 
+    margin-top:482px;
+  }
   .story{
     padding-right:90px;
     padding-left:90px;
@@ -178,6 +183,11 @@ tbody tr td:last-child {
   }
   .random_size{
     font-size:100px;
+  }
+  .ban{
+    margin-left:442px;
+    top:2132px;
+    width:20%;
   }
   
 }
@@ -187,7 +197,7 @@ tbody tr td:last-child {
   .charity{
     margin-left:10px; 
     width:33%; 
-    margin-top:601px;
+    margin-top:590px;
   }
   .G14{
     height:637px;
@@ -237,6 +247,16 @@ tbody tr td:last-child {
 }
  @media (min-width: 769px) and (max-width:1023px){
   
+  .ban{
+    margin-left:340px;
+    top:2147px;
+    width:20%;
+  }
+  .charity{
+    margin-left:10px; 
+    width:33%; 
+    margin-top:725px;
+  }
   .button{
     background-color: white; /* Green */
     border: 2px solid white;

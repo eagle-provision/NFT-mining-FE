@@ -45,7 +45,7 @@
           dicta sunt explicabo.</p>
         <p class="text-white text-center mx-5 mt-10" style="font-size:44px; font-family:Raleway">
           You can mint 20 moneys at a time</p>
-        <div class="flex justify-start pt-20">
+        <div class="flex justify-center pt-20">
             <button class="button1  text-white w-8/12">0/1000 Minted</button>
         </div>
         <div class="flex justify-center pt-10">
