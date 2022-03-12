@@ -22,7 +22,7 @@
         <div class="w-1/12"></div>
       </div>
     </div>
-    <div class="lg:hidden">
+    <div class="header_hide">
       <p class="text-white text-center p-10 uppercase hover:text-pink-500" style="font-size:80px; font-family:Bodoni Bd BT">babes</p>
       <p class="text-white text-center p-10 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">story</p>
       <p class="text-white text-center p-10 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">club</p>

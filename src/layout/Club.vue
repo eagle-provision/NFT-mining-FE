@@ -36,7 +36,7 @@
             <div class="w-1/12"></div>
         </div>
     </div>
-    <div class="lg:hidden">
+    <div class="header_hide">
         <div class="text-center flex justify-center p-10">
             <img src="./../assets/images/Meta.png"/>
         </div>

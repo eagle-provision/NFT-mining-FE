@@ -1,9 +1,9 @@
 <template>
     <div class="bg-black">
         <div class="hide">
-            <img src="./../assets/images/Group37.png">
+            <img src="./../assets/images/Group37.png" class="">
         </div>
-        <div class="lg:hidden">
+        <div class="header_hide">
             <p class="text-white text-center p-4" style="font-size:80px; font-family:Bodoni Bd BT">Boob Map</p>
             <div id="Phase1">
                 <img src="./../assets/images/boob.png"/>

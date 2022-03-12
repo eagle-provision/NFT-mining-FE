@@ -1,15 +1,15 @@
 <template>
 <div class="">
   <div class="bg flex items-center">
-      <div class="absolute lg:left-1/2 flex items-center justify-center ">
-        <div class="lg:w-2/3 mx-10 lg:mx-5 mo_header">
-          <div class="md:flex lg:justify-start md:justify-center">
-            <div class=" md:w-4/6 flex text-center">
-            <p class="text-white font-raleway lg:mt-40 uppercase mo_magazine">The Magazine on the Ethereum BlockChain</p>
+      <div class="absolute left-1/2 flex items-center justify-center ">
+        <div class="w-2/3 mx-10 mo_header sec_h">
+          <div class="md:flex justify-start">
+            <div class=" md:w-4/6 flex">
+            <p class="text-white font-raleway lg:mt-40 uppercase mo_magazine" style="font-size:0.75rem;">The Magazine on the Ethereum BlockChain</p>
             </div>
           </div>  
-          <p class="text-pink-500 text-9xl lg:text-6xl md:text-4xl" style="font-family:Cormorant">7,777 </p>
-          <p class="text-white text-4xl pb-6 lg:text-2xl md:text-xl uppercase">
+          <p class="text-pink-500 random_size" style="font-family:Cormorant">7,777 </p>
+          <p class="text-white  pb-5  uppercase" style="rg_size">
               Randomly Generated Editions of the Meta Babe Magazine0.1 ETH
           </p>
           <div class="flex items-center">
@@ -17,7 +17,7 @@
               <button class="button_ban text-white uppecase">Launch Data-TBA</button>
           </div>
         </div>
-        <div class="lg:w-1/3 ">
+        <div class="w-1/3 ">
            <img src="./../assets/images/babes_sec.png" class="xl:w-1/2 xl:pt-20 lg:w-2/5 pt-20 md:w-1/2 mo_header">
         </div>
       </div>
@@ -25,7 +25,7 @@
         <img src="./../assets/images/Group7.png" class="mo_header"/>
       </div>
   </div>
-  <div class="mo_bg lg:hidden">
+  <div class="mo_bg header_hide">
     <div class="">
       <div class="">
         <p class="text-white text-center p-20" style="font-size:28px;">The Magazine on the Ethereum BlockChain</p>

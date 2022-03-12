@@ -35,9 +35,9 @@ tbody tr td:last-child {
   border-radius: 0 8px 8px 0;
 }
 .bg{
-  background: url("./../images/bg.png");
-  
+  background: url("./../images/bg.png"); 
 }
+
 .button1{
   color: black;
   border: 2px solid white;
@@ -45,11 +45,18 @@ tbody tr td:last-child {
   width:150%;
 }
 
+
 .button2{
   color: black;
   border: 2px solid white;
   width:40px;
   height:40px;
+}
+.button5{
+  color: black;
+  border: 2px solid white;
+  width:94px;
+  height:68px;
 }
 
 .button{
@@ -92,20 +99,28 @@ tbody tr td:last-child {
   .charity{
     margin-left:10px; 
     width:30%; 
-    margin-top:243px;
+    margin-top:298px;
+  }
+  .char_title{
+    font-size:38px;
   }
   .ban{
     margin-left:702px;
     top:2232px;
     width:20%;
   }
-  
+  .header_hide{
+    display: none;
+  }
+  .random_size{
+    font-size:160px;
+  }
 }
 @media (max-width: 1600px) {
   .charity{
     margin-left:10px; 
     width:30%; 
-    margin-top:341px;
+    margin-top:369px;
   }
   .ban{
     margin-left:585px;
@@ -118,7 +133,7 @@ tbody tr td:last-child {
   .charity{
     margin-left:10px; 
     width:32%; 
-    margin-top:384px;
+    margin-top:472px;
   }
   .ban{
     margin-left:526px;
@@ -129,9 +144,9 @@ tbody tr td:last-child {
 }
 @media (max-width: 1280px) {
   .charity{
-    margin-left:10px; 
+    margin-left:8px; 
     width:34%; 
-    margin-top:434px;
+    margin-top:525px;
   }
   .ban{
     margin-left:473px;
@@ -141,8 +156,26 @@ tbody tr td:last-child {
   .G14{
     height:415px;
   }
+  .random_size{
+    font-size:120px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .card{
+    margin-left:160px;
+  }
+  .story{
+    padding-right:90px;
+    padding-left:90px;
+    padding-bottom:50px;
+  }
+  .random_size{
+    font-size:100px;
+  }
   
 }
+
 @media (max-width: 1024px) {
   
   .charity{
@@ -166,11 +199,64 @@ tbody tr td:last-child {
     padding-left:90px;
     padding-bottom:50px;
   }
-  
+  .random_size{
+    font-size:100px;
+  }
+  .rg_size{
+    font-size:24px;
+  }
+  .button{
+    background-color: white; /* Green */
+    border: 2px solid white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    width:100%;
+    cursor: pointer;
+  }
+  .button_ban{
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:100%;
+  }
+  .char_title{
+    font-size:25px;
+  }
 }
-
+ @media (min-width: 769px) and (max-width:1023px){
+  
+  .button{
+    background-color: white; /* Green */
+    border: 2px solid white;
+    cursor: pointer;
+    height:60px;
+    font-size: 10px;
+  }
+  .button_ban{
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    height:60px;
+    font-size: 12px;
+  }
+  .random_size{
+    font-size:70px;
+  }
+  .sec_h{
+    margin-top:120px;
+  }
+} 
 @media (max-width: 768px) {
   
+  .header_hide{
+    display: block;
+  }
   .charity{
     margin-left:10px; 
     width:33%; 

@@ -18,7 +18,7 @@
             </div>
         </div>
     </div> 
-    <div class="lg:hidden">
+    <div class="header_hide">
         <img src="./../assets/images/block.png">
     </div> 
 </div>

@@ -11,7 +11,7 @@
                 <div class="w-2/12"></div>
             </div>
         </div>
-        <div class="lg:hidden">
+        <div class="header_hide">
             <p class="text-white text-center p-10 uppercase" style="font-size:80px; font-family:Bodoni Bd BT">faq</p>
             <div id="Q">
                 <p class="text-white text-center md:mx-40 sm:mx-20" style="font-size:32px; font-family:Bodoni Bd BT">

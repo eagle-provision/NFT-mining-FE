@@ -2,13 +2,13 @@
 <div class="bg-black">
     <div class="hide">
         <img src="./../assets/images/Group4.png" class="absolute charity">
-        <div class=" flex  items-center ">
+        <div class=" flex  items-center py-20">
             <div class="w-1/12"></div>
             <div class="w-5/12">
                 <div class="flex ">
-                    <p class="text-white font-Bodoni Bd BT font-bold  " style="font-family:Bodoni Bd BT;font-size:38px;">Charity Donation</p>
+                    <p class="text-white font-Bodoni Bd BT font-bold  " style="font-family:Bodoni Bd BT;">Charity Donation</p>
                 </div>
-                <p class="pt-10 text-white" style="font-size:15px;" >
+                <p class="pt-10 text-white" style="font-size:16px;" >
                     As a MetaBabe holder not only are you being a part of something historical taking place on the 
                     Ethereum BlockChain, but you are also helping make a difference in the real world. (Read Below) 
                     http://recycling4acure.org 
@@ -16,7 +16,7 @@
             </div>
             <div class="w-5/12 pt-10 pb-10">
                 <img src="./../assets/images/01.png" class=""/>
-                <p class="text-white text-Raleway px-10" style="font-size: 15px;" >
+                <p class="text-white text-Raleway px-10" style="font-size: 16px;" >
                     This members only club provides a handful of exclusive benefits that all project holders 
                     will have access to. As a member you get first priority to all new events and addons that 
                     are presented as the Babe Club opens on the Block Chain.
@@ -35,20 +35,20 @@
             <div class="w-6/12 flex justify-center">
                 <div class="md:w-4/5 flex justify-center items-center ">
                     <div class="text-center ">
-                        <p class="my-3 text-white text-7xl pt-10 pb-10" style="font-family:Bodoni Bd BT;">Charity Donation</p>
-                        <p class="mt-4 text-white font-mono text">As a MetaBabe holder not only are you being a part of something historical taking place </p>                    
-                        <p class="mt-4 text-white font-mono text">on the Ethereum BlockChain, but you are also helping make a difference in the real </p>                    
-                        <p class="my-4 text-white font-mono text">world. (Read Below) http://recycling4acure.org</p>       
+                        <p class="my-3 text-white  char_title" style="font-family:Bodoni Bd BT;">Charity Donation</p>
+                        <p class="mt-4 text-white  text" style="font-size:16px;">As a MetaBabe holder not only are you being a part of something historical taking place </p>                    
+                        <p class="mt-4 text-white  text" style="font-size:16px;">on the Ethereum BlockChain, but you are also helping make a difference in the real </p>                    
+                        <p class="my-4 text-white  text" style="font-size:16px;">world. (Read Below) http://recycling4acure.org</p>       
                     </div>  
                 </div>
             </div>
             <div class="w-3/12 flex items-center">
-                <img src="./../assets/images/Group5.png" class="w-2/3">
+                <img src="./../assets/images/Group10.png" class="w-3/2">
             
             </div>
         </div>
     </div>
-    <div class="lg:hidden">
+    <div class="header_hide">
         <p class="text-white text-center p-10" style="font-size:80px; font-family:Bodoni Bd BT">Charity Donation</p>
         <p class="text-white text-center p-8" style="font-size:28px;">
             As a MetaBabe holder not only are you being a part of something historical taking place on the 
