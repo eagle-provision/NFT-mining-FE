@@ -35,7 +35,7 @@
             <div class="w-6/12 flex justify-center">
                 <div class="md:w-4/5 flex justify-center items-center ">
                     <div class="text-center ">
-                        <p class="my-3 text-white  char_title" style="font-family:Bodoni Bd BT;">Charity Donation</p>
+                        <p class="my-3 text-white  text" style="font-family:Bodoni Bd BT;">Charity Donation</p>
                         <p class="mt-4 text-white  text" style="font-size:16px;">As a MetaBabe holder not only are you being a part of something historical taking place </p>                    
                         <p class="mt-4 text-white  text" style="font-size:16px;">on the Ethereum BlockChain, but you are also helping make a difference in the real </p>                    
                         <p class="my-4 text-white  text" style="font-size:16px;">world. (Read Below) http://recycling4acure.org</p>       

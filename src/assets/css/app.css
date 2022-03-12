@@ -37,6 +37,12 @@ tbody tr td:last-child {
 .bg{
   background: url("./../images/bg.png"); 
 }
+.map_back{
+  background: url("./../images/map_back.png");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
 
 .button1{
   color: black;
@@ -98,8 +104,8 @@ tbody tr td:last-child {
 @media (max-width: 1920px) {
   .charity{
     margin-left:10px; 
-    width:30%; 
-    margin-top:298px;
+    width:25%; 
+    margin-top:284px;
   }
   .char_title{
     font-size:38px;
