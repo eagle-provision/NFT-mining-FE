@@ -1,7 +1,7 @@
 <template>
 <div class="">
   <div class="flex items-center" style="background: linear-gradient(90deg, #F677E8 0%, #01255E 100%);">
-      <img src="./../assets/images/section1.png" style="width:100%;"/>
+      <img src="./../assets/images/section1.png" class="hide" style="width:100%;"/>
       
     
       <div class="absolute left-1/2 flex items-center justify-center">
