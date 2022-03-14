@@ -101,6 +101,29 @@ tbody tr td:last-child {
 
 
 /* responsive */
+@media (min-width: 1920px) {
+  .charity{
+    margin-left:10px; 
+    width:25%; 
+    margin-top:284px;
+  }
+  .char_title{
+    font-size:38px;
+  }
+  .ban{
+    margin-left:702px;
+    top:2207px;
+    width:20%;
+  }
+  .header_hide{
+    display: none;
+  }
+  .random_size{
+    font-size:160px;
+  }
+}
+
+
 @media (max-width: 1920px) {
   .charity{
     margin-left:10px; 
@@ -373,3 +396,132 @@ tbody tr td:last-child {
     text-align: center;
   }
 }
+
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.slider-container{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden; 
+  text-align: center;
+}
+
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  bottom: 0;
+}
+
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50px;
+  margin: 0 .2em 1em;
+  /* &:hover {
+    background: red;
+  } */
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: left 0s .75s;
+}
+
+[id^="slide"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition: left .65s ease-out;
+}
+
+.slide-1 {
+  background-image: url("https://source.unsplash.com/t7YycgAoVSw/1600x900");
+}
+.slide-2 {
+  background-image: url("https://source.unsplash.com/11H1SSVcIxc/1600x900");
+}
+.slide-3 {
+  background-image: url("https://source.unsplash.com/OlZ1nWLEEgM/1600x900");
+}
+
+
+body {
+  font-family: Sans-serif;
+  font-size: 18px;
+  background:#eaeaea;
+}
+
+.content {
+  width: 100%;
+  padding: 5px;
+  margin: 0 auto;
+  
+}
+.faq_text{
+  color:white;
+  border: 2px solid white;
+}
+summary {
+  font-size: 1rem;
+  font-weight: 600;
+  background-color:black;
+  color:white;
+  border: 2px solid white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+  100%  {opacity: 1; margin-top: 0px}
+}
+
+
+
+
+

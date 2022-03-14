@@ -1,5 +1,5 @@
 <template>
-<div class="bg">
+<div class="" style="background: linear-gradient(90deg, #38C9EE 0.79%, #300578 98.25%);">
     <div class="hide">
         <div class="items-center pt-20 pb-20">
             <div class=" flex justify-center">

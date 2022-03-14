@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-black">
+  <div class="bg-black p-5">
     <div class="hide">
-      <div class="bg-black flex w-full  items-center fixed" >
+      <div class="bg-black flex w-full  items-center">
         <div class="w-1/12"></div>
         <div class="w-2/12 flex justify-end">
           <img src="./../assets/images/babes.png" class="left-0 "/>

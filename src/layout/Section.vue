@@ -1,7 +1,10 @@
 <template>
 <div class="">
-  <div class="bg flex items-center">
-      <div class="absolute left-1/2 flex items-center justify-center ">
+  <div class="flex items-center" style="background: linear-gradient(90deg, #F677E8 0%, #01255E 100%);">
+      <!-- <img src="./../assets/images/section1.png" style="width:100%;"/> -->
+      
+    
+      <!-- <div class="absolute left-1/2 flex items-center justify-center">
         <div class="w-2/3 mx-10 mo_header sec_h">
           <div class="md:flex justify-start">
             <div class=" md:w-4/6 flex">
@@ -20,10 +23,19 @@
         <div class="w-1/3 ">
            <img src="./../assets/images/babes_sec.png" class="xl:w-1/2 xl:pt-20 lg:w-2/5 pt-20 md:w-1/2 mo_header">
         </div>
+      </div> -->
+      
+      <div class="hide">
+        <mdb-carousel
+          :interval="8000"
+          slide
+          :items="items"
+          indicators
+        ></mdb-carousel>
       </div>
-      <div class="flex justify-start w-2/3 h-full ">
+      <!-- <div class="flex justify-start w-2/3 h-full ">
         <img src="./../assets/images/Group7.png" class="mo_header"/>
-      </div>
+      </div> -->
   </div>
   <div class="mo_bg header_hide">
     <div class="">
@@ -41,16 +53,40 @@
         <button class="button_ban_mo ">Launch Date-TBA</button>
       </div>
     </div>
-    <div class="flex justify-center">
+    <!-- <div class="flex justify-center">
       <img src="./../assets/images/Group72.png">
-    </div>
+    </div> -->
   </div>
 </div>      
 </template> 
 
 <script>
-export default {
-  
-};
-
+  import { mdbCarousel } from "mdbvue";
+  export default {
+    name: "CarouselPage",
+    components: {
+      mdbCarousel
+    },
+    data() {
+      return {
+        items: [
+          {
+            img: true,
+            src:
+              "/img/section1.82e14ef0.png"
+          },
+          {
+            img: true,
+            src:
+              "https://mdbootstrap.com/img/Photos/Slides/img%20(129).webp"
+          },
+          {
+            img: true,
+            src:
+              "https://mdbootstrap.com/img/Photos/Slides/img%20(70).webp"
+          }
+        ]
+      };
+    }
+  };
 </script>

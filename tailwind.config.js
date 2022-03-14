@@ -2,6 +2,20 @@ module.exports = {
   important: true,
   purge: [],
   darkMode: false,
+  
+
+  css: {
+    loaderOptions: {
+      sass: {
+        additionalData: `@import "@/assets/scss/style.scss";`,
+      },
+      css: {
+        additionalData: `@import "@/assets/css/owl.carousel.min.css";`,
+        additionalData: `@import "@/assets/css/slick.css";`,
+      },
+    },
+  },
+
   theme: {
     extend: {
 
