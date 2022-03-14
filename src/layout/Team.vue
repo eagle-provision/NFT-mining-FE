@@ -4,7 +4,7 @@
         <div class="items-center ">
             <div class=" flex justify-center">
                 <div class="flex justify-between w-8/12">
-                    <p class="text-white text-4xl pt-5 pb-5" style="font-family:Bodoni Bd BT">The Team</p>
+                    <p class="text-white text-4xl pt-5 pb-5 title_font" style="font-family:Bodoni Bd BT">The Team</p>
                 </div>
             </div>
             <div class="flex justify-center space-x-5">

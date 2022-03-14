@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="header_hide">
-      <p class="text-white text-center p-5 uppercase " style="font-size:80px; font-family:Bodoni Bd BT">babes</p>
+      <p class="text-white text-center p-5 uppercase title_font" style="font-size:80px; font-family:Bodoni Bd BT">babes</p>
       <p class="text-white text-center p-5 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">story</p>
       <p class="text-white text-center p-5 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">club</p>
       <p class="text-white text-center p-5 uppercase hover:text-pink-500" style="font-size:28px; font-family:raleway">charity donation</p>

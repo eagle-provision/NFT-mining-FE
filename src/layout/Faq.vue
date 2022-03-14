@@ -88,7 +88,7 @@
             </div>
         </div>
         <div class="header_hide">
-            <p class="text-white text-center p-10 uppercase" style="font-size:80px; font-family:Bodoni Bd BT">faq</p>
+            <p class="text-white text-center p-10 uppercase title_font" style="font-size:80px; font-family:Bodoni Bd BT">faq</p>
             <!-- <div id="Q">
                 <p class="text-white text-center md:mx-40 sm:mx-20" style="font-size:32px; font-family:Bodoni Bd BT">
                         How our service works, what should a site user do?</p>

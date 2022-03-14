@@ -7,9 +7,14 @@
                 Babes are uniquely selected with over 100+ possible attributes and traits like background, skin color, clothes, mouth piece, hair style, and much more</p>
         </div>
         <div class="xl:w-7/12 flex items space-x-4 xl:justify-start md:justify-center  mx-10">
-            <img src="./../assets/images/Group2.png" class="card_hide" style="width:310px;height:310px;"/>
-            <img src="./../assets/images/Group3.png" class="card_hide" style="width:310px;height:310px;"/>
-            <img src="./../assets/images/babes_sh.png" class="card_hide" />
+            <section class="center slider" center-slick>
+                <div >
+                    <img src="" class="slick-image" style="padding: 10px;">
+                </div>
+                <div>
+                    <img class="slick-image" src="images/image 27.png">
+                </div>
+            </section>
         </div>
         <div class="">
             <img src="./../assets/images/Maskgroup.png" class="header_hide"/>

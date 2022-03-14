@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="">
     <div class="bg-black">
       <nav
         class="
-          container
+         
           md:flex md:justify-center md:items-center
           
         "
@@ -30,12 +30,7 @@
                 focus:outline-none focus:text-white
               "
             >
-              <svg viewBox="0 0 20 20" class="w-6 h-6 fill-current">
-                <path
-                  fill-rule="evenodd"
-                  d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-                ></path>
-              </svg>
+              <img src="./../assets/images/Group68.png" style="">
             </button>
           </div>
         </div>
@@ -45,8 +40,8 @@
         
         <div class="header_hide">
           <div class="w-1/12"></div>
-          <p class="text-white text-center uppercase md:p-20 sm:p-10" 
-              style="font-size:100px; font-family:Bodoni Bd BT">babes</p>
+          <p class="text-white text-center uppercase md:p-20 sm:p-10 title_font" 
+              style="font-size:90px; font-family:Bodoni Bd BT">babes</p>
       
         </div>
         <div class="hide">
@@ -54,42 +49,43 @@
             <img src="./../assets/images/babes.png" class=""/>
           </div>  
         </div>
-        <div class="w-6/12 flex justify-center space-x-4">
-          <ul
-            :class="showMenu ? 'flex' : 'hidden' "
-            class="
-              flex-col
-              mt-8
-              space-y-4
-              md:flex
-              md:space-y-0
-              md:flex-row
-              md:items-center
-              md:space-x-2
-              md:mt-0
-              justify-center
-            "
-          >
-            <li class="text-xs font-bold text-white hover:text-pink-400">
-              STORY
-            </li>
-            <li class="text-xs font-bold text-white hover:text-pink-400">
-              CLUB
-            </li>
-            <li class="text-xs font-bold text-white hover:text-pink-400">
-              CHARITYDONATION
-            </li>
-            <li class="text-xs font-bold text-white hover:text-pink-400">
-              BOOBMAP
-            </li>
-            <li class="text-xs font-bold text-white hover:text-pink-400">
-              FAQ
-            </li>
-            <li class="text-xs font-bold text-white hover:text-pink-400">
-              CONTACT
-            </li>
-          </ul>
-        </div>
+            <div class="w-6/12 flex justify-center space-x-4">
+              <ul 
+                :class="showMenu ? 'flex' : 'hidden' "
+                class="
+                  
+                  flex-col
+                  mt-8
+                  space-y-4
+                  md:flex
+                  md:space-y-0
+                  md:flex-row
+                  md:items-center
+                  md:space-x-2
+                  md:mt-0
+                  justify-center
+                "
+              >
+                <li class="text-xs font-bold text-white hover:text-pink-400">
+                  STORY
+                </li>
+                <li class="text-xs font-bold text-white hover:text-pink-400">
+                  CLUB
+                </li>
+                <li class="text-xs font-bold text-white hover:text-pink-400">
+                  CHARITYDONATION
+                </li>
+                <li class="text-xs font-bold text-white hover:text-pink-400">
+                  BOOBMAP
+                </li>
+                <li class="text-xs font-bold text-white hover:text-pink-400">
+                  FAQ
+                </li>
+                <li class="text-xs font-bold text-white hover:text-pink-400">
+                  CONTACT
+                </li>
+              </ul>
+            </div>
         <div class="hide">
         <div class=" flex space-x-4 ">
           <img src="./../assets/images/connect_btn.png">
@@ -99,6 +95,8 @@
       </nav>
     </div>
   </div>
+  
+
   
 </template>
 <script>

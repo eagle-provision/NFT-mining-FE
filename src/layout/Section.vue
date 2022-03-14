@@ -32,22 +32,23 @@
   <div class="mo_bg header_hide">
     <div class="">
       <div class="">
-        <p class="text-white text-center p-20" style="font-size:28px;">The Magazine on the Ethereum BlockChain</p>
-        <p class="text-pink-500 text-center" style="font-family:Cormorant; font-size:100px;">7,777 </p>
+        <p class="text-white text-center pt-10 uppercase" style="font-size:32px; ">The Magazine on the </p>
+        <p class="text-white text-center uppercase" style="font-size:32px; ">Ethereum BlockChain </p>
+        <p class="text-pink-500 text-center" style="font-family:Cormorant; font-size:220px;">7,777 </p>
       </div>
     </div>
     <div class="flex justify-center">
       <div class="w-5/6">
-        <p class="text-white text-center" style="font-size:50px;">
-          Randomly Generated Editions of the Meta Babe Magazine 0.1 ETH
-        </p>
+        <p class="text-white text-center uppercase" style="font-size:50px;">Randomly Generated</p>
+        <p class="text-white text-center uppercase" style="font-size:50px;">Editions of the Meta</p>
+        <p class="text-white text-center uppercase" style="font-size:50px;">Babe Magazine 0.1 ETH</p>
         <button class="button_mo mt-20">Launch Price-TBA</button>
         <button class="button_ban_mo ">Launch Date-TBA</button>
       </div>
     </div>
-    <!-- <div class="flex justify-center">
+    <div class="flex justify-center">
       <img src="./../assets/images/Group72.png">
-    </div> -->
+    </div>
   </div>
 </div>      
 </template> 

@@ -453,6 +453,17 @@ img {
   transition: left 0s .75s;
 }
 
+@media (max-width: 350px) {
+  .title_font{
+    font-size: 70px;
+  }
+}
+
+
+
+
+
+
 [id^="slide"]:checked + .slide {
   left: 0;
   z-index: 100;
