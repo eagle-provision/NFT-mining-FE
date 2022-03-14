@@ -19,6 +19,7 @@
     "vue-plain-slider": "^1.1.1",
     "vue-router": "^3.2.0",
     "vue-slick": "^1.1.16",
+    "vue-slick-carousel": "^1.0.6",
     "vuejs-paginate": "^2.1.0"
   },
   "devDependencies": {

@@ -12,6 +12,7 @@ module.exports = {
       css: {
         additionalData: `@import "@/assets/css/owl.carousel.min.css";`,
         additionalData: `@import "@/assets/css/slick.css";`,
+        additionalData: `@import "@/assets/css/bootstrap.min.css";`,
       },
     },
   },
