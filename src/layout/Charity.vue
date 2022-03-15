@@ -15,13 +15,13 @@
                 </p>
             </div>
             <div class="w-5/12 pt-10 pb-10" style="margin-left:130px;">
-                <img src="./../assets/images/01.png" class=""/>
+                <img src="./../assets/images/10.png" class=""/>
                 <p class="text-white text-Raleway px-10" style="font-size: 16px;" >
                     This members only club provides a handful of exclusive benefits that all project holders 
                     will have access to. As a member you get first priority to all new events and addons that 
                     are presented as the Babe Club opens on the Block Chain.
                 </p>
-                <img src="./../assets/images/02.png" class="" />
+                <img src="./../assets/images/11.png" class="" />
                 <p class="text-white text-Raleway px-10 text-xl" style="font-size:15px;">
                     After we make our first Donation we will be airdropping all holders a 1/1 Breast Cancer 
                     Charity Edition MetaBabe. MetaBabeClub is here to make a difference in both the NFT world 
