@@ -14,7 +14,7 @@
                     http://recycling4acure.org 
                 </p>
             </div>
-            <div class="w-5/12 pt-10 pb-10">
+            <div class="w-5/12 pt-10 pb-10" style="margin-left:130px;">
                 <img src="./../assets/images/01.png" class=""/>
                 <p class="text-white text-Raleway px-10" style="font-size: 16px;" >
                     This members only club provides a handful of exclusive benefits that all project holders 
@@ -31,19 +31,19 @@
             <div class="w-1/12"></div>
         </div>
         <div class="flex justify-center w-full h-full" style="background: linear-gradient(90deg, #38C9EE 0.79%, #300578 98.25%);">
-            <div class="w-3/12"></div>
-            <div class="w-6/12 flex justify-center">
+            <div class="w-2/12"></div>
+            <div class="xl:w-8/12 flex justify-center">
                 <div class="md:w-4/5 flex justify-center items-center ">
                     <div class="text-center ">
-                        <p class="my-3 text-white  text title_font" style="font-family:Bodoni Bd BT;">Charity Donation</p>
-                        <p class="mt-4 text-white  text" style="font-size:16px;">As a MetaBabe holder not only are you being a part of something historical taking place </p>                    
-                        <p class="mt-4 text-white  text" style="font-size:16px;">on the Ethereum BlockChain, but you are also helping make a difference in the real </p>                    
-                        <p class="my-4 text-white  text" style="font-size:16px;">world. (Read Below) http://recycling4acure.org</p>       
+                        <p class="my-3 text-white  text-center text title_font" style="font-family:Bodoni Bd BT;">Charity Donation</p>
+                        <p class="mt-4 text-white  text-center text" style="font-size:16px;">As a MetaBabe holder not only are you being a part of something historical taking place </p>                    
+                        <p class="mt-4 text-white  text-center text" style="font-size:16px;">on the Ethereum BlockChain, but you are also helping make a difference in the real </p>                    
+                        <p class="my-4 text-white  text-center text" style="font-size:16px;">world. (Read Below) http://recycling4acure.org</p>       
                     </div>  
                 </div>
             </div>
-            <div class="w-3/12 flex items-center">
-                <img src="./../assets/images/Group10.png" class="w-3/2">
+            <div class="w-2/12 flex items-center">
+                <img src="./../assets/images/Group10.png">
             
             </div>
         </div>

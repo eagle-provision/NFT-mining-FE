@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-black xl:flex items-center pt-20 pb-20">
+    <div class="xl:flex bg-black items-center pt-20 pb-20 p-5 story_sec">
         <div class="xl:w-1/12 "></div>
         <div class="xl:w-4/12  basi_text st_text story">
             <p class="text-white font-bold " style="font-family:Bodoni Bd BT;font-size:38px; ">Story</p>
@@ -7,9 +7,9 @@
                 Babes are uniquely selected with over 100+ possible attributes and traits like background, skin color, clothes, mouth piece, hair style, and much more</p>
         </div>
         <div class="xl:w-7/12 flex items space-x-4 xl:justify-start md:justify-center  mx-10">
-            <img src="./../assets/images/Group2.png" class="card_hide" style="width:310px;height:310px;"/>
-            <img src="./../assets/images/Group3.png" class="card_hide" style="width:310px;height:310px;"/>
-            <img src="./../assets/images/babes_sh.png" class="card_hide" />
+            <img src="./../assets/images/Group2.png" class="card_hide story_card"/>
+            <img src="./../assets/images/Group3.png" class="card_hide story_card"/>
+            <!-- <img src="./../assets/images/babes_sh.png" class="card_hide" /> -->
         </div>
         <div class="">
             <img src="./../assets/images/Maskgroup.png" class="header_hide"/>

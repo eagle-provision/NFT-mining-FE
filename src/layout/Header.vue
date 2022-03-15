@@ -1,78 +1,28 @@
 <template>
   <div class="bg-black">
     <div class="hide">
-      <nav
-        class="
-         
-          md:flex md:justify-center md:items-center
-          
-        "
-      >
-        
-
-
-        <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-       
-          <div class="flex justify-start">
-            <img src="./../assets/images/babes.png" class=""/>
-          </div>  
-      
-            <div class="w-6/12 flex justify-center space-x-4">
-              <ul 
-                :class="showMenu ? 'flex' : 'hidden' "
-                class="
-                  
-                  flex-col
-                  mt-8
-                  space-y-4
-                  md:flex
-                  md:space-y-0
-                  md:flex-row
-                  md:items-center
-                  md:space-x-2
-                  md:mt-0
-                  justify-center
-                "
-              >
-                <li class="text-xs font-bold text-white hover:text-pink-400">
-                  STORY
-                </li>
-                <li class="text-xs font-bold text-white hover:text-pink-400">
-                  CLUB
-                </li>
-                <li class="text-xs font-bold text-white hover:text-pink-400">
-                  CHARITYDONATION
-                </li>
-                <li class="text-xs font-bold text-white hover:text-pink-400">
-                  BOOBMAP
-                </li>
-                <li class="text-xs font-bold text-white hover:text-pink-400">
-                  FAQ
-                </li>
-                <li class="text-xs font-bold text-white hover:text-pink-400">
-                  CONTACT
-                </li>
-              </ul>
-            </div>
-        <div class="hide">
-        <div class=" flex space-x-4 ">
-          <img src="./../assets/images/connect_btn.png">
+      <div class="flex w-full  items-center bg-black" >
+        <div class="w-1/12"></div>
+        <div class="w-2/12 flex justify-end">
+          <img src="./../assets/images/babes.png" class="left-0 "/>
         </div>
+        <div class="w-6/12 flex justify-center space-x-4 items-center">
+          <a href=""><p class="text-xs text-white hover:text-pink-500 ">STORY</p></a>
+          <a href=""><p class="text-xs text-white hover:text-pink-500">CLUB</p></a>
+          <a href=""><p class="text-xs text-white hover:text-pink-500">CHARITY DONATION</p></a>
+          <a href=""><p class="text-xs text-white hover:text-pink-500">BOOB MAP</p></a>
+          <a href=""><p class="text-xs text-white hover:text-pink-500">FAQ</p></a>
+          <a href=""><p class="text-xs text-white hover:text-pink-500">CONTACT</p></a>
+        </div>
+        <div class="w-2/12 flex space-x-4">
+           <img src="./../assets/images/connect_btn.png">
         </div>
         <div class="w-1/12"></div>
-      </nav>
+      </div>
     </div>
-    
-
     <div class="header_hide">
-      <nav
-        class="
-         
-          md:flex md:justify-center md:items-center
-          
-        "
-      >
-        <div class="flex items-center justify-between">
+      
+      <div class="flex items-center justify-between">
           <router-link
             to="/"
             class="
@@ -85,7 +35,7 @@
             >
           </router-link>
           <!-- Mobile menu button -->
-          <div @click="showMenu = !showMenu" class="flex md:hidden">
+          <div @click="showMenu = !showMenu" class="md:hidden">
             <button
               type="button"
               class="
@@ -98,22 +48,12 @@
             </button>
           </div>
         </div>
-
-
-        <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-        
-        <div class="header_hide">
-          <div class="w-1/12"></div>
-          <p class="text-white text-center uppercase md:p-20 sm:p-10 title_font" 
-              style="font-size:90px; font-family:Bodoni Bd BT">babes</p>
-      
-        </div>
-        
-            <div class="w-6/12 flex justify-center space-x-4">
-              <ul 
+        <p class="md:hidden text-white text-center uppercase pb-1 title_font" 
+              style="font-size:90px; font-family:Bodoni Bd BT pt-10">babes</p>
+        <div class="flex justify-center space-x-4">
+              <ul
                 :class="showMenu ? 'flex' : 'hidden' "
                 class="
-                  
                   flex-col
                   mt-8
                   space-y-4
@@ -126,34 +66,28 @@
                   justify-center
                 "
               >
-                <li class="text-xs font-bold text-white hover:text-pink-400">
+                <li class="text-2xs font-bold text-white hover:text-pink-400 text-center">
                   STORY
                 </li>
-                <li class="text-xs font-bold text-white hover:text-pink-400">
+                <li class="text-2xs font-bold text-white hover:text-pink-400 text-center">
                   CLUB
                 </li>
-                <li class="text-xs font-bold text-white hover:text-pink-400">
-                  CHARITYDONATION
+                <li class="text-2xs font-bold text-white hover:text-pink-400 text-center">
+                  CHARITY DONATION
                 </li>
-                <li class="text-xs font-bold text-white hover:text-pink-400">
-                  BOOBMAP
+                <li class="text-2xs font-bold text-white hover:text-pink-400 text-center">
+                  BOOB MAP
                 </li>
-                <li class="text-xs font-bold text-white hover:text-pink-400">
+                <li class="text-2xs font-bold text-white hover:text-pink-400 text-center">
                   FAQ
                 </li>
-                <li class="text-xs font-bold text-white hover:text-pink-400">
+                <li class="text-2xs font-bold text-white hover:text-pink-400 text-center">
                   CONTACT
                 </li>
               </ul>
             </div>
-        
-        <div class="w-1/12"></div>
-      </nav>
     </div>
   </div>
-  
-
-  
 </template>
 <script>
   export default {
